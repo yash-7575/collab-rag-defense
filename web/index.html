@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Collab-RAG-Defense — Poisoning attacks on retrieval-augmented generation</title>
+    <meta
+      name="description"
+      content="A reproducible study of collaborative knowledge-corruption attacks on retrieval-augmented generation, and the defenses that fight back."
+    />
+    <script>
+      // Set theme before paint to avoid a flash. Defaults to light.
+      (function () {
+        try {
+          var t = localStorage.getItem("crd-theme");
+          if (!t) t = "light";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
