@@ -1,0 +1,27 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.venv-ocr/
+.ipynb_checkpoints/
+
+data/corpus/
+data/poisoned/
+data/faiss_index/
+data/beir_raw/
+data/questions.jsonl
+
+logs/
+results/
+external/
+
+# web frontend
+web/node_modules/
+web/dist/
+
+# unrelated sandbox project
+prove-landing/node_modules/
+prove-landing/dist/
+
+.DS_Store
