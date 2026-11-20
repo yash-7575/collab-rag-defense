@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.venv-1/
 .venv-ocr/
 .ipynb_checkpoints/
 
